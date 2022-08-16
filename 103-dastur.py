@@ -1,0 +1,6 @@
+kod = int(input("Maxsuot kodini kiriting: ...... >> "))
+kurs = int(input("O`zgaruvchan kursni kiriting: . >> "))
+print("Kredit summasi  ", kod*kurs//0.75,"\n")
+print("4 oylik summa har oy .. ",(kod*kurs/0.75)//4," to`lab borasiz")
+print("6 oylik muddatga har oy ",(kod*kurs/0.75)*1.18//6," to`lab borasiz:  ")
+print("12 oy muddatga har oy . ",(kod*kurs/0.75)*1.36//12," to`lab borasiz:")
